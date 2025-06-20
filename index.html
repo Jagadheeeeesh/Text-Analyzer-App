@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer App</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Analyzer</h1>
+        </header>
+        <main>
+            <div class="input-section">
+                <textarea id="text-input" placeholder="Type or paste your text here..."></textarea>
+                <button id="analyze-button">Analyze</button>
+            </div>
+            <div class="results">
+                <h2>Results</h2>
+                <div class="result-item">
+                    <strong>Word Count:</strong> <span id="word-count">0</span>
+                </div>
+                <div class="result-item">
+                    <strong>Character Count:</strong> <span id="char-count">0</span>
+                </div>
+                <div class="result-item">
+                    <strong>Most Used Word:</strong> <span id="most-used-word">N/A</span>
+                </div>
+                <div class="result-item">
+                    <strong>Reading Time Estimate:</strong> <span id="reading-time">0</span> minutes
+                </div>
+                <div class="result-item">
+                    <strong>Longest Word:</strong> <span id="longest-word">N/A</span>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>© 2025 Text Analyzer App</p>
+        </footer>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
