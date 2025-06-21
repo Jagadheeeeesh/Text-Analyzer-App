@@ -2,6 +2,8 @@
 
 This is a simple web application that analyzes user-provided text and displays various statistics, including word count, character count, the most used word, reading time estimate, and the longest word.
 
+## Live Demo: https://jagadheeeeesh.github.io/Text-Analyzer-App/
+
 ## Features
 
 - **Word Count**: Displays the total number of words in the input text.
